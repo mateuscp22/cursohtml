@@ -36,3 +36,116 @@ p.missao {
 .missao {
     color: red;
 } */
+
+/* .missao strong {
+    color: red;
+} */
+
+/* article strong {
+    color: blue;
+} */
+
+/* article .missao strong {
+    color: green;
+} */
+/* 
+article>.importante {
+    color: red;
+} */
+
+/* article>.importante>strong {
+    color: blue;
+} */
+
+/* .caixa1 {
+    background-color: blue;
+    color: white;
+}
+
+.caixa2 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0)
+}
+
+.caixa3 {
+    background-color: rgb(255, 200, 0);
+    color: rgb(255, 255, 255);
+}
+
+.caixa4 {
+    background-color: #279165;
+}
+
+.caixa {
+    background-color: #df0;
+    color: #000;
+} */
+
+.nome {
+    color: #f00;
+    /* font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold; */
+
+    font: italic bold 24px "Trebuchet MS", sans-serif;
+
+    text-decoration: line-through underline;
+    text-align: center;
+
+}
+
+.segmento {
+    font-family: Palatino, serif;
+}
+
+body {
+    font-size: 32px;
+}
+
+.nome-empresa {
+    background-color: pink;
+}
+
+.segmento-empresa {
+    background-color: red;
+}
+
+.curso-html {
+    background-color: #00dd00;
+}
+
+.curso-css {
+    background-color: #fdff11;
+}
+
+.curso-java {
+    background-color: #00dddd;
+}
+
+.curso-bootstrap {
+    background-color: #ee00da;
+}
+
+.nome-empresa,
+.segmento-empresa {
+    display: block;
+    height: 100px;
+    width: 300px;
+}
+
+.curso-html,
+.curso-css {
+    display: inline;
+    height: 100px;
+    /* Não tem Efeito */
+    width: 300px;
+    /* Não tem Efeito */
+}
+
+.curso-java,
+.curso-bootstrap {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+}

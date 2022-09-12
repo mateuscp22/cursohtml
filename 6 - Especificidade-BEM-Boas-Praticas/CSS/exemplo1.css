@@ -1,5 +1,5 @@
 body {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 /*
@@ -9,16 +9,16 @@ body {
   */
 
 #logo {
-    /* 100 */
-    color: green;
+  /* 100 */
+  color: green;
 }
 
 .amarelo {
-    /* 010 */
-    color: yellow;
+  /* 010 */
+  color: yellow;
 }
 
 h1 {
-    /* 001 */
-    color: blue !important;
+  /* 001 */
+  color: blue !important;
 }

@@ -1,0 +1,28 @@
+/* EM e REM tem o mesmo conceito de % mas ao invés de serem baseadas no tamanho de um elemento, essas medidas são baseadas em tamanho de fonte. EM usa o tamanho da fonte do elemento pai e REM usa o tamanho da fonte do <html>. */
+.texto {
+    font-size: 2rem;
+}
+
+.texto h1 {
+    font-size: 3em;
+}
+
+.texto p {
+    padding: 0.5em;
+    margin-right: 3em;
+    border: 0.5em solid black;
+
+    font-size: 2em;
+}
+
+.texto p span {
+    font-size: 0.5em;
+}
+
+.comentarios {
+    font-size: 1rem;
+}
+
+.comentarios p {
+    font-size: 2em;
+}

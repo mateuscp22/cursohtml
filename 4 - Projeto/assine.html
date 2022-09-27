@@ -33,17 +33,23 @@
 
                 <div class="grupo-entrada">
                     <label for="razao-social">Razão social</label>
-                    <input id="razao-social" type="text" class="campo">
+                    <input id="razao-social" type="text" class="campo" required>
                 </div>
 
-                <div class="grupo-entrada">
-                    <label for="cnpj">CNPJ</label>
-                    <input id="cnpj" type="text" class="campo">
-                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cnpj">CNPJ</label>
+                            <input id="cnpj" type="text" class="campo" required>
+                        </div>
+                    </div>
 
-                <div class="grupo-entrada">
-                    <label for="data-nascimento">Data da Fundação</label>
-                    <input id="data-nascimento" type="date" class="campo" required>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="data-nascimento">Data da Fundação</label>
+                            <input id="data-nascimento" type="date" class="campo" required>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="grupo-entrada">
@@ -53,32 +59,49 @@
 
                 <div class="grupo-entrada">
                     <label for="email">Email</label>
-                    <input id="email" type="text" class="campo" required>
+                    <input id="email" type="email" class="campo" required>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="">Estado</label>
+                            <select name="" id="estado" class="campo">
+                                <option value="">Selecione</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="CE">Ceará</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="">Cidade</label>
+                            <select name="" id="estado" class="campo">
+                                <option value="">Selecione</option>
+                                <option value="MG">Uberlandia</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="CE">Fortaleza</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="grupo-entrada">
-                    <label for="">Estado</label>
-                    <select name="" id="estado" class="campo">
-                        <option value="">Selecione</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="SP">São Paulo</option>
-                        <option value="CE">Ceará</option>
-                    </select>
-                </div>
-
-                <div class="grupo-entrada">
-                    <label for="">Cidade</label>
-                    <select name="" id="estado" class="campo">
-                        <option value="">Selecione</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="SP">São Paulo</option>
-                        <option value="CE">Ceará</option>
-                    </select>
-                </div>
-
-                <div style="text-align: center; margin-top: 20px">
-                    <input type="submit" value="Assinar MyPilas" class="botao  botao--principal">
-                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="senha">Senha</label>
+                            <input id="senha" type="password" class="campo" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="confirmacao-senha">Confirme a Senha</label>
+                            <input id="senha" type="password" class="campo" required>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 20px">
+                        <input type="submit" value="Assinar MyPilas" class="botao  botao--principal">
+                    </div>
             </form>
 
         </div>

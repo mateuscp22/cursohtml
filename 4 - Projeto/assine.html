@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MyPilas</title>
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+</head>
+
+<body>
+
+    <header class="layout-cabecalho">
+        <div class="container">
+
+            <nav class="navegacao  navegacao--assinatura">
+                <a href="index.html"><img src="img/IBNH 1 - PRETO.png" width="150" height="20" alt="IBNH" /></a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="layout-assinatura">
+        <div class="container">
+
+            <form action="#" method="post">
+                <h1 class="titulo-formulario">Sua assinatura do MyPilas</h1>
+
+                <div class="grupo-entrada">
+                    <label for="razao-social">Razão social</label>
+                    <input id="razao-social" type="text" class="campo">
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="cnpj">CNPJ</label>
+                    <input id="cnpj" type="text" class="campo">
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="data-nascimento">Data da Fundação</label>
+                    <input id="data-nascimento" type="date" class="campo" required>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="">Responsável</label>
+                    <input id="responsavel" type="text" class="campo" required>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" class="campo" required>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="">Estado</label>
+                    <select name="" id="estado" class="campo">
+                        <option value="">Selecione</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="CE">Ceará</option>
+                    </select>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="">Cidade</label>
+                    <select name="" id="estado" class="campo">
+                        <option value="">Selecione</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="CE">Ceará</option>
+                    </select>
+                </div>
+
+                <div style="text-align: center; margin-top: 20px">
+                    <input type="submit" value="Assinar MyPilas" class="botao  botao--principal">
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="layout-rodape">
+        <div class="container">
+            <p>&copy; MyPilas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
